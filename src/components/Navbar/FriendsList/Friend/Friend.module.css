@@ -1,0 +1,23 @@
+.friendProfile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 40px;
+    padding-bottom: 5px;
+}
+
+.profileImage {
+    height: 32px;
+    width: 32px;
+}
+
+.profileImage img {
+    height: inherit;
+    width: inherit;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.friendData {
+    padding-left: 5px;
+}

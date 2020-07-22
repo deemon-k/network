@@ -1,0 +1,41 @@
+.side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 10%;
+    background-color: #1a6c51;
+    /*padding-top: 10vh;*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.sideImg {
+    height: 10vh;
+}
+
+.sideImg img {
+    margin: 5px;
+    height: 80px;
+}
+
+.nav {
+    width: 60%;
+}
+
+.item a {
+    text-decoration: none;
+    color: white;
+}
+
+.item a.active {
+    color: darkgoldenrod;
+}
+
+.friendsList {
+    width: 60%;
+    height: 30%;
+}
