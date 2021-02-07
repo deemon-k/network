@@ -4,7 +4,7 @@ import s from './Footer.module.css'
 const Footer = () => {
   return (
     <footer className={s.footer}>
-      <h2>Это сделал Димон</h2>
+      <h2></h2>
     </footer>
   )
 }

@@ -9,6 +9,7 @@ import Footer from './components/Footer/Footer'
 import {BrowserRouter, Route} from 'react-router-dom'
 import MessagesContainer from './components/Messages/MessagesContainer'
 import NavbarContainer from './components/Navbar/NavbarContainer'
+import UsersContainer from './components/Users/UsersContainer'
 
 const App = () => {
   return (
@@ -23,9 +24,10 @@ const App = () => {
             <Route path="/news" render={() => <News />} />
             <Route path="/music" render={() => <Music />} />
             <Route path="/settings" render={() => <Settings />} />
+            <Route path="/users" render={() => <UsersContainer />} />
           </div>
         </div>
-        <Footer/>
+        {/* <Footer/> */}
       </div>
     </BrowserRouter>
   );

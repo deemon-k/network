@@ -9,7 +9,7 @@ import {Provider} from 'react-redux'
 let rerenderEntireTree = (state) => {
   ReactDOM.render(
     <React.StrictMode>
-      <Provider store={store}>>
+      <Provider store={store}>
         <App/>
       </Provider>
     </React.StrictMode>,
